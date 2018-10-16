@@ -1,0 +1,777 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    /*background-image: url(../img/bg.gif);*/
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+
+}
+
+.error-carga {
+    margin-top: 200px;
+    margin-left: 640px;
+}
+
+.main-header {
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navs {
+    z-index: 10000;
+    width:100%;
+    display: flex;
+    background-color: rgb(159,48,41);
+    margin-bottom: 5px;
+    position: fixed;
+    border-bottom: #bdbdbd;
+    justify-content: space-between;
+}
+
+.main-nav {
+    box-sizing: content-box;
+    width: 625px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    opacity: 1;
+}
+
+.nav-logo {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+}
+.nav-logo a{
+    align-self: center;
+    animation-duration: 0.4s;
+}
+.nav-logo a:hover{
+    align-self: flex-end;
+    
+}
+
+.nav-logo img{
+    width:80px;
+}
+
+.main-nav a{
+    text-align: center;
+    width: 125px;
+    padding: 50px 0px 15px 0px;
+    text-decoration: none;
+    /*border-radius: 10%;*/
+    color: white;
+    background-color: rgb(159,48,41);
+    opacity: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1em;
+    height: 100px;
+    transition-duration: 0.4s; 
+
+}
+
+#long-link {
+    width: 250px;
+}
+
+.user {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+  
+}
+
+.user a{
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    padding: 15px 0px 15px 0px;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(159,48,41); 
+    opacity: 0.8; 
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 35px 0px 10px 0px;
+    
+}
+
+.user a:hover{
+    opacity: 2;
+}
+
+.a:visited {
+    color: white;
+}
+
+
+.main-nav a:hover {
+    background-color: rgb(159,48,41);
+    opacity: 0.8;
+    padding: 30px 0px 15px 0px;
+
+
+}
+
+
+.main-banner {
+    width:100%;
+    margin-top:111px;
+    
+}
+
+.main-banner img {
+    max-width:100%;
+    position: relative;
+    
+}
+
+.banner-frecuentes {
+    margin-top:111px;
+}
+.social-icons {
+    box-sizing: content-box;
+    margin: 15px 0 25px 0;
+    display: flex;
+    justify-content: center;
+
+     
+}
+
+.icons {
+    display: flex;;
+    width: 21.05263157894737%;
+    justify-content: space-between;
+    box-sizing: content-box;
+
+}
+
+.social-icons img {
+    width: 45px;
+    opacity: 0.7;
+    transition-duration: 0.4s;
+}
+.social-icons img:hover {
+    opacity: 1;
+}
+
+
+.btn{ /* modificado Hernan*/
+    width:110px;
+    height: 33px;
+    background-color: rgb(95, 29, 25);
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+    border: 0px;
+}
+
+.btn:hover{/* modificado Hernan*/
+    background-color:rgb(8, 8, 8);
+    color:rgb(159,48,41);
+}
+
+.datos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.side-banner {
+    margin-top: 20px;
+}
+
+
+
+.user a:visited{
+    color: white;
+}
+
+
+h3{
+    text-decoration: underline;
+}
+
+input{
+    color: black;
+    font-weight: 400;
+}
+
+.form {
+    
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.vip-doggos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    max-width: 1600px;
+}
+
+
+
+
+
+main {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 110px 0px 10px 0px;
+    /*width: 500px;*/
+    font-size: 0.7em;
+}
+
+.doggo {
+    max-width: 28.125%;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doggo h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: #9f3029;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 55px;
+    text-shadow: yellow; 
+}
+
+.login-form{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    background-color:  rgb(150, 48, 41);
+    /*opacity: 0.8;*/
+    color: white; 
+    border-radius: 10px;
+    border: 0;
+    width: 576px;
+    margin-top: 200px; 
+    padding: 30px;
+    align-content: center;
+    
+    
+    
+   
+}
+
+.login-buttons {
+    position: relative;
+   
+}
+
+
+.reg-form {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    background-color:  rgb(150, 48, 41);
+    /*opacity: 0.8;*/
+    color: white; 
+    border-radius: 10px;
+    border: 0;
+    /*width: 576px;*/
+    margin-top: 20px; 
+    padding: 30px;
+    align-content: center;
+    position: relative;
+    
+}
+
+.form-input {
+    font-size: 20px; 
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+.doggo-link {
+    max-width: 100%;
+}
+
+
+.doggo-pic {
+    max-width: 100%;
+    border: 4px rgb(124, 123, 123);
+    /*border-style: inset;*/
+    border-radius: 4%;
+}
+
+
+
+p {
+    margin: 0px 0px 10px 0px;
+    font-size: 1em;
+    width: 300px;
+    align-self: center;
+}
+
+.doggo a{
+    text-align: center;
+    display: box;
+    width: 120px;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    border-radius: 4%;
+    color: white;
+    background-color:rgb(187, 46, 36);
+    /*opacity: 0.8;*/ 
+    margin: 10px 0px 10px 0px;
+}
+
+.doggo a:hover{
+    background-color:rgb(218, 15, 0); 
+}
+
+.vip-catalogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.box-color_link {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    color:rgb(255,255,255);
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	margin:10px 0 25px;
+	overflow:hidden;
+	padding:15px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	background-color:rgb(187, 46, 36);
+    border:1px solid #afcde3;
+    text-decoration: none;
+    transition-duration: 0.4s;	
+}
+
+.box-color_link:hover {
+    width: 500px;
+    padding: 20px 0px 20px 0px;
+    opacity: 0.8s;
+}
+
+.footer-nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    
+  }
+  
+  /*.banner-form:hover .overlay {
+    opacity: 1;
+  }*/
+.banner-form{
+    opacity: 0.8;
+    transition: 0.4s;
+    width: 100%;
+    display: flex;
+    align-content: center;
+} 
+
+.banner-form:hover{
+    opacity: 1;
+}
+
+.banner-form img{
+    width: 1900px;
+}
+
+
+.banner-form p{
+    width: 400px;
+    position: absolute;
+    top: 325px;
+    /*left: 750px;*/
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center;
+    font-size: 23px;
+    color: rgb(185,44,35);
+    font-weight: bold;
+    text-shadow: #afcde3;
+    align-self: center;
+}
+
+.banner-form p a{
+    color:rgb(255,255,255);
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	margin:10px 0 25px;
+	overflow:hidden;
+	padding:15px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	background-color:rgb(187, 46, 36);
+    border:1px solid #afcde3;
+    text-decoration: none;
+    font-weight: normal;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    color: black;
+    padding: 0px 5px 0px 5px;
+}
+
+i {
+    text-align: center;
+}
+
+.avatar {
+    margin-top: 110px;
+}
+
+/*agregado Hernan---------------------------------------*/
+
+.box-color_logo,
+.box-gray{
+	color: rgb(255,255,255);
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	margin:0 0 25px;
+	overflow:hidden;
+	padding:15px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;	
+}
+.box-color_logo {
+    font-family: 'Josefin Sans', sans-serif;
+	background-color:rgb(187, 46, 36);
+	border:1px solid #afcde3;	
+}
+.box-gray {
+	background-color:#e2e2e2;
+	border:1px solid #bdbdbd;
+}
+/* Final Agragado Hernan----------------------------------*/
+
+
+
+
+
+
+ @media (max-width: 909.98px) {
+    .user {
+         width: 22.22222222222222%;
+     }
+ }
+
+ @media (max-width: 861.98px) {
+    .nav-logo {
+        display: none;
+    }
+    
+} 
+
+
+
+@media (max-width: 775.98px) {
+   
+    .user{
+        flex-direction: column;
+        
+    }
+
+    .user a{
+    
+        margin-top: 0;
+        /*padding: 26px 0px 15px 0px;*/ 
+    }
+
+    .doggo{
+        max-width: 40%;
+    }
+
+    .doggo a{
+        width: 50%;
+    }
+}
+
+@media (max-width: 719.98px) {
+    
+    
+    .main-nav a{
+        width: 115px;
+    }
+    #long-link {
+        width: 230px;
+        
+    }
+}
+
+    @media (max-width: 661.98px) {
+
+    .main-nav{
+        justify-content: space-between ;
+        width: 90%;
+    }    
+    .main-nav a{
+        width: 110px;
+        font-size: 1em;
+    }
+    #long-link {
+        width: 230px;
+    }
+    .user {
+        width: 80px;
+    }
+    .user a{
+        font-size: 0.8em;
+        width: 70px;
+    }
+
+    
+    }    
+
+@media (max-width: 575.98px) {
+    
+    .main-nav{
+        flex-direction: column;
+        box-sizing: content-box;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .navs {
+        position: absolute;
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        display: unset;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-logo a{
+        width: 20%;
+        display: flex;
+        justify-self: center;
+    }
+
+    .main-nav a{
+        box-sizing: content-box;
+        height: 20px;
+        border-radius: 0%;
+        width: 100%;
+        border-bottom: 1px solid white;
+        padding: 30px 0px 32px 0px;
+        font-size: 25px;
+    }
+
+    #long-link {
+        width: 100%;
+    }
+    .user {
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .user a{
+        border-radius: 0%;
+        width: 100%;
+        border-bottom: 1px solid white;
+        margin: 0px;
+        font-size: 1em;
+        padding: 20px 0px 35px 0px;
+        text-decoration: none;
+      
+    }
+
+    
+
+    .vip-doggos {
+        margin-top: 120px;
+    }
+
+    .main-form {
+        width: 100%;
+    }
+
+    .main form form{
+        width: 100%;
+    }
+
+    .datos {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+    
+
+    .login-form {
+        width: 400px;
+        margin-top: 100px;
+    }
+    .form {
+        justify-content: center;
+
+    }
+    .reg-form {
+        width: 100%;
+        margin-top: 350px;
+        padding-left: 0px;
+        padding-left: 0px;
+        font-size: 20px;
+        
+    }
+
+    .form-input {
+        font-size: 20px; 
+        height: 50px;
+        width: 300px;
+        border: none;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .login-form {
+        margin-top: 550px;
+    }
+
+    .ac-container{
+        margin-top: 700px;
+    }
+    
+
+
+@media (max-width: 424.98px) {
+    .main-header{
+        width: 100%;
+    }
+
+    .vip-doggos {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 150px;
+    }
+
+    .doggo a{
+        align-self: center;
+    }
+
+    .banner{
+        margin-top: 200px;
+    }
+    
+    .doggo{
+        max-width: 90%;
+        align-self: center;
+     
+    }
+
+    .doggo p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+    }
+
+    .footer-nav a{
+        border: none;
+
+    }
+}
+
+.error {
+    margin-top: 200px;
+}

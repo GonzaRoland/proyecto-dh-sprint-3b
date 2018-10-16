@@ -1,0 +1,131 @@
+*  HUB
+- [ ] Try a example mural
+- [ ] Setup Hub
+- [ ] Create EY mural from templates
+- [ ] Switch to View mode and pan around until all images load
+- [ ] Leave mural
+- [ ] Send new blank mural to Hub 
+- [ ] Test join by code
+- [ ] 2 more people must enter at this point
+- [ ] Follow someone
+- [ ] Make them move elements and viewport. Make them draw on a sticky.
+- [ ] Move element
+- [ ] Ask to be followed
+- [ ] Add 10 ideas
+- [ ] 2 texts
+- [ ] 2 drawings
+- [ ] 2 images
+- [ ] 1 Image upload
+- [ ] 1 link
+- [ ] 2 titles/textboxes
+- [ ] Draw a 2x2
+- [ ] Move the 2x2
+- [ ] Add a Framework
+- [ ] Move the framework
+- [ ] Add the ideas on to the framework
+- [ ] Move the framework with the ideas
+- [ ] Multiple select all elements
+- [ ] Move all elements
+- [ ] Undo the last 4 operations
+- [ ] Select 1 sticky and resize it
+- [ ] Select 1 image and resize it
+- [ ] Add a connector between two elements
+- [ ] Draw around two elements and make an area
+- [ ] Add a sticker to one sticky note
+- [ ] Start a voting session
+- [ ] Vote from another device
+- [ ] End voting session
+- [ ] Leave mural and re-enter
+- [ ] Having a Win and iOS devices connected, add elements to an area, make it a grid area and take out elements.
+- [ ] Select sticky and change background color
+
+* iOS
+
+- [ ] Try a demomural
+- [ ] Login
+- [ ] Create a new blank mural
+- [ ] Send new blank mural to Hub 
+- [ ] Test broadcast link
+- [ ] 2 more people must enter at this point
+- [ ] Import Post-it Plus board
+- [ ] Follow someone
+- [ ] Make them move elements and viewport. Make them draw on a sticky.
+- [ ] Move element
+- [ ] Ask to be followed
+- [ ] Add 10 ideas
+- [ ] 2 texts
+- [ ] 2 drawings
+- [ ] 2 images
+- [ ] 1 Image upload
+- [ ] Draw a 2x2
+- [ ] Move the 2x2
+- [ ] Add a Framework
+- [ ] Move the framework
+- [ ] Add the ideas on to the framework
+- [ ] Move the framework with the ideas
+- [ ] Multiple select all elements
+- [ ] Move all elements
+- [ ] Undo the last 4 operations
+- [ ] Select 1 image and resize it
+- [ ] Add a sticker to one sticky note from another device
+- [ ] Start a voting session
+- [ ] Vote on 5 different widgets, more than 2 per line
+- [ ] End voting session
+- [ ] Leave mural and re-enter
+- [ ] Check dashboard rooms, navigation through workspaces and rooms
+- [ ] Having a Win and iOS devices connected, add elements to an area, make it a grid area and take out elements.
+- [ ] Select sticky and change background color
+
+* WEB:
+- [ ] Change Avatar from user settings.
+- [ ] Change navigation from settings.
+- [ ] Enter iOS' created mural (Get followed by iOS).
+- [ ] Search image by keyword, add one by copying in clipboard and by copying a link
+- [ ] Connect them and move them around while connected.
+- [ ] Undo all previous step and redo them.
+- [ ] Add 10 ideas
+- [ ] 2 texts (on web)
+- [ ] 1 Image upload
+- [ ] 1 link
+- [ ] Create a few comments.
+- [ ] Zoom in and out with them being expanded.
+- [ ] Expand and collapse the two of them
+- [ ] Add a Framework
+- [ ] Move the framework
+- [ ] Add the ideas on to the framework
+- [ ] Move the framework with the ideas
+- [ ] Multiple select stickies
+- [ ] Move all elements
+- [ ] Convert into area
+- [ ] Move area
+- [ ] Move them around, change area free form to layout back and forth.
+- [ ] Undo the last 4 operations
+- [ ] Select 1 image and resize it
+- [ ] Add a sticker to one sticky note (web)
+- [ ] Start a voting session
+- [ ] Vote on 5 different widgets, more than 2 per line
+- [ ] Test broadcast link and import links (iOS) 
+- [ ] Leave the mural
+- [ ] Favourite a room.
+- [ ] Unfavourite another room.
+- [ ] Refresh and observe favourites are set as expected.
+- [ ] Enter the mural
+- [ ] Leave the mural and create a mural from template
+- [ ] Duplicate a mural from example
+- [ ] Publish a template
+
+## Vito
+- [ ] Moving a mural from a WS without edition to a new WS with edition, then setting visitors edition link, doesn't show toolbar for visitors in destination mural.
+- [ ] Invite an email of a non-existing user. Create an account from /sigup with that email. Assert `join workspace` screen looks good.
+- [ ] Exports.
+
+- [ ] Creating a new mural and entering `Mural members` should show signed in user `last access` column as of now.
+
+Guests
+- [ ] Guests cannot access any workspace room.
+- [ ] Guests cannot create any rooms.
+
+Move scenarios
+- [ ] Get a private room who has several partial members. Create a mural (which members are only you) and move it to another private room. Observe room members weren't moved.
+- [ ] Create a private room (RoomA) with a user (UserA). Make another room (RoomB) where UserA is member (non-admin). Move a mural from RoomA to RoomB. Observe UserA is still the owner.
+- [ ] Get a private room mural with a member, a Guest and an invite pending. Move it to a WS room sharing members. Observe guests and pending invites are not moved.
